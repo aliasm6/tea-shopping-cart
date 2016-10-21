@@ -7,7 +7,8 @@
   angular
     .module('teaShopApp', [
       'teaShopApp.config',
-      'teaShopApp.components.main'
+      'teaShopApp.components.main',
+      'teaShopApp.components.inventory'
     ]);
 
 })();
