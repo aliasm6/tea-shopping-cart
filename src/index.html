@@ -17,6 +17,7 @@
       <div ng-controller="InventoryController as invctrl">
         <p>{{ invctrl.saySomething }}</p>
       </div>
+      <ts-inventory></ts-inventory>
     </div>
     <!-- scripts -->
     <script type="text/javascript" src="//code.jquery.com/jquery-2.2.4.min.js"></script>
@@ -30,7 +31,10 @@
 
     <!-- inventory components -->
     <script type="text/javascript" src="js/components/inventory/inventory.config.js"></script>
+    <script type="text/javascript" src="js/components/inventory/inventory.service.js"></script>
     <script type="text/javascript" src="js/components/inventory/inventory.controller.js"></script>
+    <script type="text/javascript" src="js/components/inventory/inventory.directive.js"></script>
+
 
   </body>
 </html>

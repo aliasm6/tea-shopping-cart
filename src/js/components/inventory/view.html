@@ -1,0 +1,19 @@
+<div ng-repeat="tea in vm.teas">
+  <div class="row">
+    <div class="card horizontal z-depth-0">
+      <div class="card-image">
+        <img ng-src="{{tea.imageUrl}}">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <h5>{{tea.name}}</h5>
+          <p>{{tea.price}}</p>
+
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
